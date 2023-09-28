@@ -118,7 +118,7 @@ namespace Vonk.Plugin.PreferredIdOperation
                         Details = new CodeableConcept(
                             "http://hl7.org/fhir/dotnet-api-operation-outcome",
                             "5000",
-                            $"Operation called with wrong resource.\nExpected [NamingSystem] and got [{resource}] instead."
+                            $"Operation called with wrong resource. Expected [NamingSystem] and got [{resource}] instead."
                         )
                     }
                 }
